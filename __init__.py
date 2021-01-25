@@ -5,6 +5,10 @@ import ast
 from os import environ
 from pyrogram import filters
 
+#Fill Them Bruhhhhhhhh
+USERNAME = environ.get("USERNAME")
+PASSWORD = environ.get("PASSWORD")
+
 API_ID = environ.get("API_ID")
 API_HASH = environ.get("API_HASH")
 TOKEN = environ.get("TOKEN")
